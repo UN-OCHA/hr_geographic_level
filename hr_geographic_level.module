@@ -5,3 +5,10 @@
  */
 
 include_once 'hr_geographic_level.features.inc';
+
+/**
+ * Implements hook_cron()
+ */
+function hr_geographic_level_cron() {
+  humanitarianresponse_core_feeds_check('csv_geographic_level', 'http://terms.humanitarianresponse.info/geographic-level.csv');
+}
