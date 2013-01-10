@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Humanitarianresponse Geographic Level feature.
+ */
+
+include_once 'hr_geographic_level.features.inc';

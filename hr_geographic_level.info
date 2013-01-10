@@ -1,0 +1,15 @@
+name = Humanitarianresponse Geographic Level
+description = Geographic level taxonomy for Humanitarianresponse
+core = 7.x
+package = Humanitarianresponse
+dependencies[] = entity_translation
+dependencies[] = features
+dependencies[] = feeds
+dependencies[] = feeds_et
+dependencies[] = humanitarianresponse_core
+dependencies[] = vppr
+features[ctools][] = feeds:feeds_importer_default:1
+features[features_api][] = api:1
+features[feeds_importer][] = csv_geographic_level
+features[taxonomy][] = geographic_level
+features[user_permission][] = administer geographic_level vocabulary terms
