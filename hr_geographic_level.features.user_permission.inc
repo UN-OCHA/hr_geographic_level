@@ -14,8 +14,8 @@ function hr_geographic_level_user_default_permissions() {
   $permissions['administer geographic_level vocabulary terms'] = array(
     'name' => 'administer geographic_level vocabulary terms',
     'roles' => array(
-      0 => 'administrator',
-      1 => 'manager',
+      'administrator' => 'administrator',
+      'manager' => 'manager',
     ),
     'module' => 'vppr',
   );
