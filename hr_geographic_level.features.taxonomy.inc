@@ -13,9 +13,9 @@ function hr_geographic_level_taxonomy_default_vocabularies() {
       'name' => 'Geographic Level',
       'machine_name' => 'geographic_level',
       'description' => '',
-      'hierarchy' => '0',
+      'hierarchy' => 0,
       'module' => 'taxonomy',
-      'weight' => '0',
+      'weight' => 0,
       'rdf_mapping' => array(
         'rdftype' => array(
           0 => 'skos:ConceptScheme',
