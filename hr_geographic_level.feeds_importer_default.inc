@@ -35,7 +35,7 @@ function hr_geographic_level_feeds_importer_default() {
     'processor' => array(
       'plugin_key' => 'FeedsTermProcessor',
       'config' => array(
-        'vocabulary' => 'geographic_level',
+        'bundle' => 'geographic_level',
         'mappings' => array(
           0 => array(
             'source' => 'Name:en',
